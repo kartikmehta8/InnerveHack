@@ -1,0 +1,58 @@
+{
+  "name": "collectup",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@date-io/date-fns": "1.x",
+    "@material-ui/core": "^4.11.1",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "@material-ui/pickers": "^3.2.10",
+    "@material-ui/styles": "^4.11.5",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "date-fns": "^2.16.1",
+    "debounce": "^1.2.0",
+    "grommet": "^2.15.2",
+    "grommet-icons": "^4.5.0",
+    "material-ui-image": "^3.3.0",
+    "oauth-1.0a": "^2.2.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-error-boundary": "^3.0.2",
+    "react-modal": "^3.11.2",
+    "react-scripts": "4.0.0",
+    "react-spinners": "^0.9.0",
+    "recharts": "^1.8.5",
+    "styled-components": "^5.2.1",
+    "time-ago": "^0.2.1",
+    "use-callback-ref": "^1.2.4",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
