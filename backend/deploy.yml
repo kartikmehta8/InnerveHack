@@ -1,7 +1,7 @@
-runtime: nodejs12
+runtime: nodejs16
 
 env_variables:
-  GCLOUD_STORAGE_BUCKET: collectup-images
+  GCLOUD_STORAGE_BUCKET: mottanai
 
 handlers:
   - url: /.*

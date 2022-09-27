@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useRef } from 'react';
 
 const useAPI = () => {
-  const BACKEND_ADDRESS = 'https://oxford-hackathon.el.r.appspot.com';
-  // const BACKEND_ADDRESS = 'http://localhost:8080';
+  // const BACKEND_ADDRESS = 'https://oxford-hackathon.el.r.appspot.com';
+  const BACKEND_ADDRESS = 'http://localhost:8080';
   const activeRequests = useRef([]);
 
   const sendRequest = useCallback(

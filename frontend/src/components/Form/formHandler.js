@@ -1,5 +1,5 @@
-const BASE_URL = 'https://oxford-hackathon.el.r.appspot.com';
-// const BASE_URL = 'http://localhost:8080';
+// const BASE_URL = 'https://oxford-hackathon.el.r.appspot.com';
+const BASE_URL = 'http://localhost:8080';
 
 const formSubmitHandler = async (event, formState) => {
   event.preventDefault();

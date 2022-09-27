@@ -78,15 +78,8 @@ app.get('/filter', async (req, res) => {
 
 // add new post
 app.post('/add', multerMid.single('image'), async (req, res) => {
-  let {
-    user,
-    title,
-    description,
-    city,
-    address,
-    location,
-    category,
-  } = req.body;
+  let { user, title, description, city, address, location, category } =
+    req.body;
 
   location = JSON.parse(location);
 
@@ -147,7 +140,7 @@ app.use((req, res, next) => {
 // password = 4OLRNDV8YzIKc9Vr
 mongoose
   .connect(
-    'mongodb+srv://admin:4OLRNDV8YzIKc9Vr@cluster0.68z4j.mongodb.net/Cluster0?retryWrites=true&w=majority',
+    'mongodb+srv://kartik:mehta@innerve.dcqomyn.mongodb.net/?retryWrites=true&w=majority',
     // avoid some deprecation warnings
     {
       useNewUrlParser: true,

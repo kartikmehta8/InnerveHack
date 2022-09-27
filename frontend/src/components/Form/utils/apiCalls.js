@@ -1,4 +1,4 @@
-const BASE_URL = 'https://oxford-hackathon.el.r.appspot.com';
+const BASE_URL = 'http://localhost:8080';
 
 const getCoordinates = async (query) => {
   const { access_token } = JSON.parse(localStorage.getItem('collectupAuth'));
