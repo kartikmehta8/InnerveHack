@@ -503,10 +503,11 @@ function WayPointSequenceView({ markers }) {
             <Grid item sm={12}>
               <Button
                 fullWidth
-                color='secondary'
+                color='white'
                 variant='contained'
                 onClick={getEndpoint}
                 disabled={isLoading}
+                style={{backgroundColor: "#1c1c1c", color: "white"}}
               >
                 Calculate
               </Button>

@@ -63,7 +63,7 @@ function TimelineView({ setQuery, midLocations }) {
     <Grid className={classes.box} container justify='flex-start'>
       <Grid item sm={3}>
         <Typography variant='h5' color='primary' className={classes.heading}>
-          <PinDropIcon /> PICK UP LOCATION
+          <PinDropIcon style={{color: "#1c1c1c"}} /> <span style={{color: "#1c1c1c"}}>Pick up location</span>
         </Typography>
         <Box m={4} />
         <form
@@ -100,8 +100,8 @@ function TimelineView({ setQuery, midLocations }) {
                   <Button
                     variant='contained'
                     size='medium'
-                    color='primary'
                     type='submit'
+                    style={{backgroundColor: "#1c1c1c", color: "white"}}
                   >
                     Submit
                   </Button>
@@ -125,7 +125,7 @@ function TimelineView({ setQuery, midLocations }) {
                 color='textSecondary'
                 className={classes.heading}
               >
-                <DirectionsIcon /> CURRENT ROUTE
+                <DirectionsIcon style={{color: "#1c1c1c"}}/> <span style={{color: "#1c1c1c"}}>Current Route</span>
               </Typography>
               <Box m={1} />
               <List
@@ -135,8 +135,9 @@ function TimelineView({ setQuery, midLocations }) {
                     component='div'
                     id='nested-list-subheader'
                     className={classes.heading}
+                    color='#1c1c1c'
                   >
-                    Location and timings
+                    <span style={{color: "#1c1c1c"}}>Location and timings</span>
                     <Divider />
                   </ListSubheader>
                 }
@@ -152,7 +153,7 @@ function TimelineView({ setQuery, midLocations }) {
                 color='textSecondary'
                 className={classes.heading}
               >
-                <SkipNextIcon /> NEXT PICKUP
+                <SkipNextIcon style={{color: "#1c1c1c"}}/> <span style={{color: "#1c1c1c"}}>Next pickup</span>
               </Typography>
               <Box m={1} />
               <Card className={classes.card}>
@@ -171,7 +172,7 @@ function TimelineView({ setQuery, midLocations }) {
                   </CardContent>
                 </CardActionArea>
                 <CardActions>
-                  <Button size='small' color='primary'>
+                  <Button size='small' color='#1c1c1c'>
                     Learn More
                   </Button>
                 </CardActions>
@@ -185,7 +186,7 @@ function TimelineView({ setQuery, midLocations }) {
                 color='textSecondary'
                 className={classes.heading}
               >
-                <TimelapseIcon /> LOCAL TIME
+                <TimelapseIcon style={{color: "#1c1c1c"}}/> <span style={{color: "#1c1c1c"}}>Local Time</span>
               </Typography>
               <Box m={1} />
               <Box className={classes.clock}>

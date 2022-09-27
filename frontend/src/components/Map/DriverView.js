@@ -51,7 +51,7 @@ function DriverView() {
   return (
     <ErrorBoundary FallbackComponent={() => 'Loading failed...'}>
       <Suspense fallback={<ScaleLoader />}>
-        <AppBar position='relative' color='transparent'>
+        <AppBar position='relative' color='#1e1e1e'>
           <Tabs
             value={value}
             onChange={(_, v) => setValue(v)}

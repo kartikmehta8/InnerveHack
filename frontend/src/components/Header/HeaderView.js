@@ -2,15 +2,15 @@ import {
   AppBar,
   Toolbar,
   IconButton,
-  Badge,
   Typography,
   makeStyles,
   Box,
   Slide,
   useScrollTrigger,
 } from '@material-ui/core';
+import logo from '../../assets/logo.png'
 
-import { Notifications, Menu, LocalShipping, Map } from '@material-ui/icons';
+import { LocalShipping, Map } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -65,7 +65,7 @@ function HeaderView({ setDriverView, driverView, props }) {
   return (
     <div className={classes.grow}>
       <HideOnScroll {...props}>
-        <AppBar>
+        <AppBar style={{backgroundColor: "#1c1c1c"}}>
           <Toolbar>
             <IconButton
               edge='start'
@@ -73,11 +73,10 @@ function HeaderView({ setDriverView, driverView, props }) {
               color='inherit'
               aria-label='menu'
             >
-              <Menu />
             </IconButton>
             <div className={classes.logoImg}>
               <img
-                src='https://i.ibb.co/5TbtcBc/test.png'
+                src={logo}
                 alt='logo'
                 className={classes.logoImg}
               />
@@ -88,7 +87,7 @@ function HeaderView({ setDriverView, driverView, props }) {
               noWrap
               className={classes.title}
             >
-              COLLECT-UP
+              Mottainai
             </Typography>
             <div className={classes.grow} />
             <div>
@@ -119,11 +118,6 @@ function HeaderView({ setDriverView, driverView, props }) {
                     <LocalShipping style={{ color: 'whitesmoke' }} />
                   </>
                 )}
-              </IconButton>
-              <IconButton>
-                <Badge badgeContent={4} color='secondary'>
-                  <Notifications />
-                </Badge>
               </IconButton>
             </div>
           </Toolbar>

@@ -53,6 +53,7 @@ function FormView() {
           setIsOpen((prev) => !prev);
         }}
         color='primary'
+        style={{backgroundColor: "#1c1c1c", color: "white"}}
       >
         <AddIcon className={classes.extendedIcon} />
         Create New Post

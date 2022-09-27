@@ -4,10 +4,10 @@ import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: "#1c1c1c",
     height: '8vh',
     paddingTop: '8px',
-    color: '',
+    color: 'white',
   },
   Typo: {
     color: 'secondary',
@@ -25,7 +25,7 @@ function FooterView() {
       justify='flex-start'
       alignItems='center'
     >
-      <Grid item md='6'>
+      {/* <Grid item md='6'>
         <Typography>
           MIT License
           <Link href='https://github.com/Niotane/Collectup' color='blue'>
@@ -33,21 +33,11 @@ function FooterView() {
             | Github
           </Link>
         </Typography>
-      </Grid>
+      </Grid> */}
 
       <Grid item md='6'>
         <Typography>
-          Contact us : Product Manager :
-          <Link href='https://www.linkedin.com/in/antoine-beine' color='blue'>
-            {' '}
-            Antoine Beine{' '}
-          </Link>
-          | Tech Lead :
-          <Link href='https://www.linkedin.com/in/sauravmh/' color='blue'>
-            {' '}
-            Saurav M.Hiremath{' '}
-          </Link>
-          |
+          Made with &hearts; by East India Company
         </Typography>
       </Grid>
     </Grid>
