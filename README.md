@@ -44,4 +44,4 @@ The Mottainai Web App serves 2 different clients, namely, community members with
 It was a challenge for us to finish implementing the different features we had planned in time. Working on creating an ORM for JS SDK for React caused the whole development process to take longer than expected. But this bore fruit at later stages when the component flow was perfect. Working with HERE was a fun experience, the documentation and the customization options are endless!
 
 ## What we have learned 📖
-Managing and coordinating work, even though we were in different timezones was remarkable. From the core of React, and Node optimizing the component rendering using Refs and accessing DOM elements to map HERE functions, this was surely a rollercoaster.
+Managing and coordinating work, even though we were in different timezones was remarkable. From the core of React, and Node optimizing the component rendering using Refs and accessing DOM elements to map HERE functions, this was surely a rollercoaster ride.
