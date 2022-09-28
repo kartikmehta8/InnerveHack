@@ -1,8 +1,8 @@
-import { AppMode, AuthProvider } from "@arcana/auth";
-import { useEffect, useState } from "react";
+import { AppMode, AuthProvider } from '@arcana/auth';
+import { useState } from 'react';
 
 //Config
-const appId = 2275;
+const appId = 2274;
 
 let auth;
 
@@ -12,7 +12,7 @@ function useArcanaAuth() {
   const initializeAuth = async () => {
     if (!auth) {
       auth = new AuthProvider(appId);
-      await auth.init({ appMode: AppMode.NoUI, position: "right" });
+      await auth.init({ appMode: AppMode.NoUI, position: 'right' });
       setInitialized(true);
     }
   };
@@ -42,7 +42,7 @@ function useArcanaAuth() {
   //Getting user Accounts
   const getAccounts = async () => {
     if (initialized) {
-      return await auth.provider.request({ method: "eth_accounts" });
+      return await auth.provider.request({ method: 'eth_accounts' });
     }
   };
 
