@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/77505989/190895010-cfd43b08-7004-4f98-92ab-cc1445312264.png" alt="BANNER" />
+  <img src="https://user-images.githubusercontent.com/77505989/192813475-3994d81f-83f3-441c-ab01-c22268eb2eda.png" alt="BANNER" />
 </p>
 
 ## Authentication System
@@ -16,29 +16,23 @@ Web3 authentication plugin allows Secure Login with a **secure decentralized sys
 
 ### Arcana Auth
 
-Provide frictionless onboarding for web3 users using social auth or passwordless logins. Arcana handles all aspects of key management from key pair generation to secure non-custodial handling through the arcana wallet so that your users don't have to.
+Provide frictionless onboarding for web3 users using **social auth or passwordless logins**. Arcana handles all aspects of key management from key pair generation to secure non-custodial handling through the arcana wallet so that your users don't have to.
 
 <br />
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/77505989/190895624-52fa6677-be16-4b69-8f0f-b9b99badcc01.jpeg" alt="ARCANA" />
+<img src="https://user-images.githubusercontent.com/77505989/192811350-8aef5099-c38e-448d-9142-b558e1f1d960.png" alt="ARCANA" />
 <p align="center">Passwordless Sign In using Email & Google Authentication using Arcana</p>
 </p>
 
 <br />
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/77505989/190895912-5a89a9b7-0045-4c2b-bc1f-73d047898605.jpeg" alt="ARCANA" />
+<img src="https://user-images.githubusercontent.com/77505989/192811333-c4f69ddd-670a-4faa-8ce1-391c41170236.jpg" alt="ARCANA" />
 <p align="center">Authentication Logged In.</p>
 </p>
 
 ### Technology Stack
-- **ReactJS -** For building frontend..
+- **ReactJS -** For building Frontend.
 - **Tailwind CSS -** For Rapid Prototyping & Designing.
 - **Arcana -** For User Authentication.
-
-## Contributors
-- [Shivam Kundra](https://github.com/shivamkundra)
-- [Sarthak Jain](https://github.com/Sarthakjain714)
-- [Suraj Shukla](https://github.com/098suraj)
-- [Kartik Mehta](https://github.com/kartikmehta8)
