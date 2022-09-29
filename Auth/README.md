@@ -36,3 +36,17 @@ Provide frictionless onboarding for web3 users using **social auth or passwordle
 - **ReactJS -** For building Frontend.
 - **Tailwind CSS -** For Rapid Prototyping & Designing.
 - **Arcana -** For User Authentication.
+
+## Working
+
+To run the website, `cd` into `/frontend` and, run the command to install the dependencies,
+
+```
+>>> npm install
+```
+
+It will install all the dependencies required for the website to function properly. Then,
+
+```
+>>> npm start
+```
