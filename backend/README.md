@@ -2,6 +2,12 @@
   <img src="https://user-images.githubusercontent.com/77505989/192952109-97272b53-bc26-4288-82e7-cafc3e72170c.png" alt="BANNER" />
 </p>
 
+### Technology Stack
+- **Node JS -** For Creating a Runtine Environment.
+- **Express JS -** For Creating REST APIs.
+- **Google Cloud Platform -** For Storing the Images.
+- **MongoDB -** For Storing the Post Data.
+
 ## Working
 
 - Run `yarn install`
