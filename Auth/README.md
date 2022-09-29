@@ -39,7 +39,7 @@ Provide frictionless onboarding for web3 users using **social auth or passwordle
 
 ## Working
 
-To run the website, `cd` into `/frontend` and, run the command to install the dependencies,
+To run the website, `cd` into `/Auth` and, run the command to install the dependencies,
 
 ```
 >>> npm install
