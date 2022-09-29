@@ -8,7 +8,7 @@ import {
   Slide,
   useScrollTrigger,
 } from '@material-ui/core';
-import logo from '../../assets/logo.png'
+// import logo from '../../assets/logo.png';
 
 import { LocalShipping, Map } from '@material-ui/icons';
 
@@ -65,21 +65,20 @@ function HeaderView({ setDriverView, driverView, props }) {
   return (
     <div className={classes.grow}>
       <HideOnScroll {...props}>
-        <AppBar style={{backgroundColor: "#1c1c1c"}}>
+        <AppBar style={{ backgroundColor: '#1c1c1c' }}>
           <Toolbar>
             <IconButton
               edge='start'
               className={classes.menuButton}
               color='inherit'
               aria-label='menu'
-            >
-            </IconButton>
+            ></IconButton>
             <div className={classes.logoImg}>
-              <img
+              {/* <img
                 src={logo}
                 alt='logo'
                 className={classes.logoImg}
-              />
+              /> */}
             </div>
             <Typography
               variant='h6'

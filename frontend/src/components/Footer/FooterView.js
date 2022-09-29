@@ -1,10 +1,10 @@
 import React from 'react';
-import { Grid, Link, Typography } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor: "#1c1c1c",
+    backgroundColor: '#1c1c1c',
     height: '8vh',
     paddingTop: '8px',
     color: 'white',
@@ -36,9 +36,7 @@ function FooterView() {
       </Grid> */}
 
       <Grid item md='6'>
-        <Typography>
-          Made with &hearts; by East India Company
-        </Typography>
+        <Typography>Made with &hearts; by East India Company</Typography>
       </Grid>
     </Grid>
   );
