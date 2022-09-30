@@ -8,7 +8,7 @@ import {
   Slide,
   useScrollTrigger,
 } from '@material-ui/core';
-// import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.png';
 
 import { LocalShipping, Map } from '@material-ui/icons';
 
@@ -74,11 +74,11 @@ function HeaderView({ setDriverView, driverView, props }) {
               aria-label='menu'
             ></IconButton>
             <div className={classes.logoImg}>
-              {/* <img
+              <img
                 src={logo}
                 alt='logo'
                 className={classes.logoImg}
-              /> */}
+              />
             </div>
             <Typography
               variant='h6'

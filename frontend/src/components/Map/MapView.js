@@ -26,7 +26,7 @@ function MapView() {
   const [query, setQuery] = useState(undefined);
   const [viaLocations, setViaLocations] = useState([]);
   const [markersList, setMarkersList] = useState({ origin: '', markers: [] });
-  const [origin, setOrigin] = useState('48.86,2.31');
+  const [origin, setOrigin] = useState('28,77');
   const [posts, setPosts] = useState([]);
   const [isSnackbar, setIsSnackbar] = useState(false);
 

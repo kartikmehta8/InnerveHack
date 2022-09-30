@@ -62,7 +62,7 @@ function DriverView() {
           >
             <Tab label='Calculate Route' />
             <Tab label='Connect to Customers' />
-            <Tab label='My Feed' />
+            {/* <Tab label='My Feed' /> */}
           </Tabs>
         </AppBar>
         {value === 0 && <WayPointSequenceView markers={markers} />}

@@ -154,9 +154,9 @@ function Posts({ posts }) {
               <Typography variant='body1'>
                 <strong>Name:</strong> {post.user}
               </Typography>
-              <Typography variant='body1'>
+              {/* <Typography variant='body1'>
                 <strong>Contact number:</strong> {post.phoneNumber}
-              </Typography>
+              </Typography> */}
               <Typography variant='body1'>
                 <strong>Address:</strong> {post.address}{' '}
               </Typography>

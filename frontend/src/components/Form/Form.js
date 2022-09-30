@@ -8,7 +8,7 @@ import formHandler from './formHandler';
 import getCoordinates from './utils/apiCalls';
 
 function Main() {
-  const [query, setQuery] = useState('Paris, France');
+  const [query, setQuery] = useState('Delhi, India');
   const [position, setPosition] = useState('');
   const [formState, inputHandler] = useForm(
     {

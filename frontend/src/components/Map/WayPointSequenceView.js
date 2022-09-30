@@ -203,7 +203,7 @@ function WayPointSequenceView({ markers }) {
                 </Grid>
               </Grid>
             </Grid>
-            <Grid item sm={12}>
+            {/* <Grid item sm={12}>
               <Grid container>
                 <FormControl className={classes.formControl}>
                   <FormControlLabel
@@ -238,16 +238,16 @@ function WayPointSequenceView({ markers }) {
                   </FormControl>
                 )}
               </Grid>
-            </Grid>
+            </Grid> */}
             {transportMode === 'truck' && (
               <Grid item sm={12}>
                 <Grid container justify='space-between'>
                   <Grid item sm={12}>
-                    <Typography className={classes.subheading} gutterBottom>
+                    {/* <Typography className={classes.subheading} gutterBottom>
                       Truck properties
-                    </Typography>
+                    </Typography> */}
                   </Grid>
-                  <Grid item>
+                  {/* <Grid item>
                     <FormControl className={classes.formControl}>
                       <Typography className={classes.label} gutterBottom>
                         Length of truck in meter (0-100 mtrs)
@@ -262,8 +262,8 @@ function WayPointSequenceView({ markers }) {
                         valueLabelDisplay='auto'
                       />
                     </FormControl>
-                  </Grid>
-                  <Grid item>
+                  </Grid> */}
+                  {/* <Grid item>
                     <FormControl className={classes.formControl}>
                       <Typography className={classes.label} gutterBottom>
                         Width of truck in meter (0-10 mtrs)
@@ -278,8 +278,8 @@ function WayPointSequenceView({ markers }) {
                         valueLabelDisplay='auto'
                       />
                     </FormControl>
-                  </Grid>
-                  <Grid item>
+                  </Grid> */}
+                  {/* <Grid item>
                     <FormControl className={classes.formControl}>
                       <Typography className={classes.label} gutterBottom>
                         Height of truck in meter (0-100 mtrs)
@@ -294,8 +294,8 @@ function WayPointSequenceView({ markers }) {
                         valueLabelDisplay='auto'
                       />
                     </FormControl>
-                  </Grid>
-                  <Grid item>
+                  </Grid> */}
+                  {/* <Grid item>
                     <FormControl className={classes.formControl}>
                       <Typography className={classes.label} gutterBottom>
                         Max Truck Weight including trailer in tons (0-200 tons)
@@ -310,7 +310,7 @@ function WayPointSequenceView({ markers }) {
                         valueLabelDisplay='auto'
                       />
                     </FormControl>
-                  </Grid>
+                  </Grid> */}
                 </Grid>
               </Grid>
             )}
@@ -474,12 +474,12 @@ function WayPointSequenceView({ markers }) {
                 alignItems='baseline'
                 spacing={2}
               >
-                <Grid item>
+                {/* <Grid item>
                   <Typography className={classes.subheading} gutterBottom>
                     Turbo Mode
                   </Typography>
-                </Grid>
-                <Grid item>
+                </Grid> */}
+                {/* <Grid item>
                   <Switch
                     checked={restTimes === 'disabled'}
                     onChange={() =>
@@ -490,14 +490,14 @@ function WayPointSequenceView({ markers }) {
                     name='Turbo Mode'
                     size='small'
                   />
-                </Grid>
-                <Grid item sm={12}>
+                </Grid> */}
+                {/* <Grid item sm={12}>
                   <Typography className={classes.label} gutterBottom>
                     The default are simplified European rules: After 4.5h
                     driving 45min rest and after 9h driving 11h rest. Switch
                     this over to Turbo Mode, if you are full of adrenaline
                   </Typography>
-                </Grid>
+                </Grid> */}
               </Grid>
             </Grid>
             <Grid item sm={12}>
